@@ -1,27 +1,27 @@
 {
-    "h": {
-        "fields": "user.name",
-        "hint": "Filter HR Profiles <search>",
-        "order": 0,
-        "overwriteurl": "",
-        "url": "sn_hr_core_profile_list.do?sysparm_query=user.nameLIKE$0"
-    },
-    "hraw": {
-        "fields": "",
-        "hint": "HR Agent Workspace",
-        "order": 0,
-        "overwriteurl": "",
-        "url": "/now/hr/agent/home"
-    },
-    "xmll": {
-        "fields": "",
-        "hint": "Append &XML to URL: Export list",
-        "order": 0,
-        "overwriteurl": "",
-        "url": "javascript: window.location.href = window.location.href.split('#')[0] + (window.location.href.indexOf('?') === -1 ? '?' : '&') + 'XML';"
-    },
-    "rp": {
-        "url": "/esc?id=sc_cat_item&sys_id=$1",
-        "hint": "Open Record Producer in ESC (Provide Sys ID)"
-    }
+  "h": {
+    "fields": "user.name",
+    "hint": "Filter HR Profiles <search>",
+    "order": 0,
+    "overwriteurl": "",
+    "url": "sn_hr_core_profile_list.do?sysparm_query=user.nameLIKE$0"
+  },
+  "hraw": {
+    "fields": "",
+    "hint": "HR Agent Workspace",
+    "order": 0,
+    "overwriteurl": "",
+    "url": "/now/hr/agent/home"
+  },
+  "rp": {
+    "hint": "Open Record Producer in ESC <sys_id>",
+    "url": "/esc?id=sc_cat_item&sys_id=$1"
+  },
+  "xmll": {
+    "fields": "",
+    "hint": "Append &XML to URL: Export list",
+    "order": 0,
+    "overwriteurl": "",
+    "url": "javascript: window.location.href = window.location.href.split('#')[0] + (window.location.href.indexOf('?') === -1 ? '?' : '&') + 'XML';"
+  }
 }
