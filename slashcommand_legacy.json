@@ -1,7 +1,7 @@
 {
   "h": {
     "fields": "user.name",
-    "hint": "Filter HR Profiles <search>",
+    "hint": "Filter HR Profiles <name>",
     "order": 0,
     "overwriteurl": "",
     "url": "sn_hr_core_profile_list.do?sysparm_query=user.nameLIKE$0"
