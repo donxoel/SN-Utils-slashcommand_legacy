@@ -13,8 +13,16 @@
         "overwriteurl": "",
         "url": "/now/hr/agent/home"
     },
+    "rca": {
+        "fields": "",
+        "hint": "Restricted Caller Access Privileges",
+        "order": 0,
+        "overwriteurl": "",
+        "url": "sys_restricted_caller_access_list.do"
+    },
     "rp": {
         "hint": "Open Record Producer in ESC <sys_id>",
+        "overwriteurl": "",
         "url": "/esc?id=sc_cat_item&sys_id=$1"
     },
     "xmll": {
@@ -24,11 +32,14 @@
         "overwriteurl": "",
         "url": "javascript: window.location.href = window.location.href.split('#')[0] + (window.location.href.indexOf('?') === -1 ? '?' : '&') + 'XML';"
     },
-    "rca": {
-        "fields": "",
-        "hint": "Restricted Caller Access Privileges",
-        "order": 0,
+    "hrcase": {
+        "url": "sn_hr_core_case_list.do?sysparm_query=active=true^ORDERBYDESCsys_created_on",
         "overwriteurl": "",
-        "url": "sys_restricted_caller_access_list.do"
+        "hint": "Open HR Case Table (active)"
+    },
+    "hrwf": {
+        "url": "sn_hr_core_case_workforce_admin_list.do?sysparm_query=active=true^ORDERBYDESCsys_created_on",
+        "overwriteurl": "",
+        "hint": "Open HR Workforce Admin Case Table (active)"
     }
 }
